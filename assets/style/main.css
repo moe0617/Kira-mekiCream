@@ -439,13 +439,10 @@ h1 {
 }
 
 /* Slick本体 */
-@media (min-width: 768px) {
-    /* .slick-slide {
-        opacity: 1 !important;
-        left: 0 !important;
-    } */
-}
 
+.slick-list{
+    overflow: visible;
+}
 
 /*Slickドット*/
 .slick-dots {
