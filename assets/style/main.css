@@ -1,0 +1,518 @@
+@charset "UTF-8";
+
+/* ページ全体のスタイル
+------------------------------------------ */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Noto Serif JP", sans-serif;
+    line-height: 1.2;
+    color: #000;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+img {
+    height: auto;
+    vertical-align: bottom;
+}
+
+/* 部品
+------------------------------------------ */
+.-Marcellus {
+    font-family: "Marcellus", sans-serif;
+}
+
+.-EBGaramond {
+    font-family: "EB Garamond", sans-serif;
+}
+
+.-white {
+    color: #fff;
+}
+
+/* ボタン */
+.-button {
+    display: block;
+    margin: 0 auto;
+    padding: 18px 59px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* ボタンの幅が画面に対して大きくなりすぎないよう調整 */
+@media (max-width: 767px) {
+    .-button {
+        max-width: 450px;
+    }
+}
+
+@media (min-width: 768px) {
+    .-button {
+        margin-left: 0;
+        margin-right: 32px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1099px) {
+    .-button {
+        padding: 18px 28px;
+        font-size: 14px;
+    }
+}
+
+/* マウスオーバー時60％透過 */
+.-transparent:hover {
+    opacity: 0.6;
+}
+
+/* タイトル部分 */
+.-topic {
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+@media (min-width: 768px) {
+    .-topic {
+        font-size: 45px;
+    }
+}
+
+.-topicjp {
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+@media (min-width: 768px) {
+    .-topicjp {
+        font-size: 20px;
+    }
+}
+
+/* ヘッダー
+------------------------------------------ */
+header {
+    margin-bottom: 55px;
+}
+
+@media (min-width: 768px) {
+    header {
+        height: calc(100vw / 2 - 15px);
+        margin-bottom: 35px;
+    }
+}
+
+h1 {
+    background-image: url(/assets/image/header/mainVisual_sp.jpg);
+    background-size: 100%;
+    aspect-ratio: 6 / 7;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 4.5px;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        background-image: url(/assets/image/header/mainVisual_pc.jpg);
+        aspect-ratio: 2 / 1;
+        font-size: 28px;
+        letter-spacing: 5.5px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    h1 {
+        padding-top: 20px;
+    }
+}
+
+@media (min-width: 1001px) {
+    h1 {
+        padding-top: 33px;
+    }
+}
+
+.header__main__title {
+    margin-top: -37px;
+    margin-left: 6%;
+    font-size: 41px;
+    font-weight: 400;
+    letter-spacing: 12px;
+    line-height: 1.25;
+}
+
+@media (min-width: 768px) {
+    .header__main__title {
+        margin-top: -32%;
+        font-size: 50px;
+        letter-spacing: 15px;
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    .header__main__title {
+        margin-left: 6%;
+    }
+}
+
+@media (min-width: 1001px) {
+    .header__main__title {
+        margin-left: 15%;
+    }
+}
+
+.header__main__description {
+    margin-top: 10px;
+    margin-left: 6%;
+    font-size: 20px;
+    letter-spacing: 6px;
+}
+
+@media (min-width: 768px) {
+    .header__main__description {
+        margin-top: 6px;
+        font-size: 25px;
+        letter-spacing: 7px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    .header__main__description {
+        margin-left: 6%;
+    }
+}
+
+@media (min-width: 1001px) {
+    .header__main__description {
+        margin-left: 15%;
+    }
+}
+
+/* 販売
+------------------------------------------ */
+.promotion {
+    margin: 20px 16px 49px;
+    padding: 20px 30px 34px;
+    background-color: #F0F4FF;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .promotion {
+        width: calc(100vw - 20px);
+        margin-bottom: 49px;
+        margin-inline: auto;
+        padding: 42px 48px 22px;
+        max-width: 1000px;
+    }
+}
+
+@media (min-width: 768px) {
+    .promotion__container {
+        display: flex;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1099px) {
+    .promotion__container {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .promotion__item {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1099px) {
+    .promotion__item {
+        margin-right: 40px;
+    }
+}
+
+@media (min-width: 1100px) {
+    .promotion__item {
+        margin-right: 69px;
+    }
+}
+
+/* 商品名 */
+.promotion__item__name {
+    margin-bottom: 9px;
+    letter-spacing: 2px;
+    color: #111;
+    font-size: 18px;
+}
+
+@media (min-width: 768px) {
+    .promotion__item__name {
+        margin-bottom: 12px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1099px) {
+    .promotion__item__name {
+        font-size: 21px;
+    }
+}
+
+@media (min-width: 1100px) {
+    .promotion__item__name {
+        font-size: 24px;
+    }
+}
+
+/* 価格 */
+.promotion__item__price {
+    margin-bottom: 22px;
+    color: #111;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+}
+
+@media (min-width: 768px) {
+    .promotion__item__price {
+        margin-bottom: 0;
+        font-size: 16px;
+    }
+}
+
+/* ボタン */
+.promotion__button__onlineshop {
+    background-color: #46C4DB;
+    margin-bottom: 21px;
+}
+
+.promotion__button__buy {
+    background-color: #5DD5AB;
+    padding: 18px 112px;
+}
+
+@media (min-width: 768px) {
+    .promotion__button__buy {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1099px) {
+    .promotion__button__buy {
+        padding: 18px 68px;
+    }
+}
+
+/* 商品紹介
+------------------------------------------ */
+.product__container {
+    display: block;
+    background-image: url(/assets/image/product/product_sp.jpg);
+    background-size: 100%;
+    aspect-ratio: 39 / 68;
+    padding: 50px 16px 0;
+}
+
+@media (min-width: 768px) {
+    .product__container {
+        background-image: url(/assets/image/product/product_pc.jpg);
+        aspect-ratio: 30 / 11;
+        padding: 8.5% 3% 0 55%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1149px) {
+    .product__container {
+        padding-top: 4%;
+    }
+}
+
+.product__introduce__slogan {
+    margin-bottom: 13px;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .product__introduce__slogan {
+        margin-bottom: 14px;
+        padding-left: 2px;
+        font-size: 38px;
+        text-align: start;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1149px) {
+    .product__introduce__slogan {
+        margin-bottom: 12px;
+        font-size: 28px;
+    }
+}
+
+.product__introduce__sloganjp {
+        margin-bottom: 24px;
+        padding-left: 4px;
+        text-align: start;
+    }
+
+.product__introduce__sloganjp {
+    margin-bottom: 18px;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .product__introduce__sloganjp {
+        margin-bottom: 24px;
+        padding-left: 4px;
+        text-align: start;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1149px) {
+    .product__introduce__sloganjp {
+        margin-bottom: 16px;
+        font-size: 20px;
+    }
+}
+
+.product__introduce__description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 2.25;
+}
+
+@media (min-width: 768px) {
+    .product__introduce__description {
+        padding-left: 5px;
+        max-width: 429px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1149px) {
+    .product__introduce__description {
+        font-size: 11px;
+    }
+}
+
+/* お客様の声
+------------------------------------------ */
+.voices__title {
+    margin-top: 52px;
+    margin-bottom: 7px;
+    letter-spacing: 1px;
+}
+
+.voices__titlejp {
+    margin-bottom: 38px;
+    letter-spacing: 1px;
+}
+
+/* Slick矢印 */
+.slick-arrow {
+    position: absolute;
+    top: calc((100% - 38px) / 2);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.prev-arrow {
+    left: 15px;
+}
+
+.next-arrow {
+    right: 15px;
+}
+
+/* Slick本体 */
+@media (min-width: 768px) {
+    /* .slick-slide {
+        opacity: 1 !important;
+        left: 0 !important;
+    } */
+}
+
+
+/*Slickドット*/
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    column-gap: 6px;
+}
+
+.slick-dots li {
+    margin: 0;
+    width: 11px;
+}
+
+.slick-dots li button {
+    padding: 0;
+}
+
+.slick-dots li.slick-active button:before,.slick-dots li button:before {
+    width: fit-content;
+    font-size: 10px;
+}
+
+.slick-dots li button:before {
+    color: #ccc;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #00AFBF;
+    margin: 0;
+}
+
+.voices__slick__item {
+    margin-bottom: 6px;
+}
+
+.voices__slick__container {
+    margin: 0 auto;
+    padding: 28px 15px 25px;
+    background-color: #DBF7F9;
+    width: 280px;
+}
+
+@media (min-width: 768px) {
+    .voices__slick__container {
+        padding: 28px 15px 25px;
+        width: 300px;
+    }
+}
+
+.voices__slick__item img {
+    display: flex;
+    margin: 0 auto 10px;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.voices__pickup {
+    font-size: 14px;
+}
+
+.voices__pickup__name {
+    margin-bottom: 17px;
+    text-align: center;
+}
+
+.voices__pickup__voice {
+    margin: 0 auto;
+    max-width: 250px;
+    line-height: 2;
+}
