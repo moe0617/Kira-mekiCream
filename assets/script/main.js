@@ -7,6 +7,8 @@ $('.voices__slick').slick({
     nextArrow: '<img src="assets/image/voices/arrow-right-circle_sp.svg" class="slide-arrow next-arrow">',
 
     centerMode: true,
+    slidesToShow: 3,
+    slidesToScroll: 3,
     // fade: true,
     // autoplay: true,
     // autoplaySpeed: 7000,
