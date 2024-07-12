@@ -9,24 +9,9 @@ $('.voices__slick').slick({
     centerMode: true,
     slidesToShow: 3,
     slidesToScroll: 3,
-    // fade: true,
     // autoplay: true,
     // autoplaySpeed: 7000,
     responsive: [
-        {
-            breakpoint: 1500,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
-            },
-        },
-        {
-            breakpoint: 1200,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2,
-            },
-        },
         {
             breakpoint: 768,
             settings: {
@@ -38,8 +23,8 @@ $('.voices__slick').slick({
 });
 
 // アコーディオン
-$('.accordion-content').hide();
-$('.accordion-title').on('click', function(e) {
+$('.accordion__content').hide();
+$('.accordion__title').on('click', function(e) {
     var content = $(this).next();
     $(this).toggleClass('selected');
     content.slideToggle();

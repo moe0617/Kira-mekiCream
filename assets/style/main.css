@@ -475,7 +475,8 @@ h1 {
 }
 
 .voices__slick__item {
-    margin-bottom: 6px;
+    width: fit-content !important;
+    margin: 0 20px 6px;
 }
 
 .voices__slick__container {
@@ -488,7 +489,13 @@ h1 {
 @media (min-width: 768px) {
     .voices__slick__container {
         padding: 28px 15px 25px;
-        width: 300px;
+        width: 205px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .voices__slick__container {
+        width: 280px;
     }
 }
 
@@ -512,4 +519,162 @@ h1 {
     margin: 0 auto;
     max-width: 250px;
     line-height: 2;
+}
+
+/* よくあるご質問 */
+/* アコーディオンのタイトル部分 */
+.accordion-title {
+    margin: 0;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* アコーディオンのコンテンツ部分 */
+.accordion__content {
+    display: flex;
+    padding: 12px 6px;
+}
+
+/* 大外 */
+.qa {
+    background: linear-gradient(to right, #F4FFE8, #C6F0FE);
+    margin-inline: auto;
+    margin-bottom: 82px;
+    padding: 20px 16px 60px;
+}
+
+@media (min-width: 768px) {
+    .qa {
+        margin-bottom: 94px;
+    }
+}
+
+/* title部分 */
+.qa__title {
+    margin-top: 72px;
+    margin-bottom: 38px;
+}
+
+@media (min-width: 768px) {
+    .qa__title {
+        margin-bottom: 42px;
+        line-height: 2;
+        font-size: 36px;
+    }
+}
+
+/* 外枠 */
+.qa__item {
+    margin-inline: auto;
+    margin-bottom: 20px;
+    font-weight: 500;
+    background-color: #fff;
+}
+
+@media (min-width: 768px) {
+    .qa__item {
+        max-width: 904px;
+    }
+}
+
+.qa__item__q {
+    display: flex;
+    margin: 15px 15px 20px;
+}
+
+@media (min-width: 768px) {
+    .qa__item__q {
+        margin: 19px 20px 20px 24px;
+    }
+}
+
+.qa__item__a {
+    padding: 16px 0 19px 16px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+@media (min-width: 768px) {
+    .qa__item__a {
+        padding: 20px 0 31px 25px;
+    }
+}
+
+/* QAアイコン */
+.qa__item__q__icon {
+    margin-right: 12px;
+}
+
+@media (min-width: 768px) {
+    .qa__item__q__icon {
+        margin-right: 17px;
+    }
+}
+
+.qa__item__q__icon,.qa__item__a__icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: 700;
+    line-height: 2;
+}
+
+@media (min-width: 768px) {
+    .qa__item__q__icon,.qa__item__a__icon {
+        width: 48px;
+        height: 48px;
+        font-size: 24px;
+        line-height: 2;
+    }
+}
+
+/* 文章 */
+.qa__item__q__description {
+    margin-right: 6px;
+    width: 81%;
+}
+
+@media (min-width: 768px) {
+    .qa__item__q__description {
+        margin-right: 76px;
+        padding-top: 10px;
+        font-size: 16px;
+    }
+}
+
+.qa__item__a__description{
+    padding: 0 11px;
+    width: 84%;
+}
+
+@media (min-width: 768px) {
+    .qa__item__a__description {
+        padding: 8px 10px 0 15px;
+        width: 87%;
+    }
+}
+
+/* 三角矢印 */
+.bi-caret-down-fill {
+    line-height: 1.4;
+    height: fit-content;
+    margin-left: auto;
+}
+
+@media (min-width: 768px) {
+    .bi-caret-down-fill {
+        margin-top: 9px;
+        font-size: 23px;
+    }
+}
+
+.accordion__title.selected > .bi-caret-down-fill {
+    transform: rotate(180deg)translateY(-19%);
+}
+
+@media (min-width: 768px) {
+    .accordion__title.selected > .bi-caret-down-fill {
+        transform: rotate(180deg)translateY(-18%);
+    }
 }
