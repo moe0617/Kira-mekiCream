@@ -88,7 +88,7 @@ img {
 
 .-topicjp {
     text-align: center;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 16px;
 }
 
@@ -475,7 +475,6 @@ h1 {
 }
 
 .voices__slick__item {
-    width: fit-content !important;
     margin: 0 20px 6px;
 }
 
@@ -483,19 +482,11 @@ h1 {
     margin: 0 auto;
     padding: 28px 15px 25px;
     background-color: #DBF7F9;
-    width: 280px;
 }
 
 @media (min-width: 768px) {
     .voices__slick__container {
         padding: 28px 15px 25px;
-        width: 205px;
-    }
-}
-
-@media (min-width: 1000px) {
-    .voices__slick__container {
-        width: 280px;
     }
 }
 
@@ -539,64 +530,67 @@ h1 {
 .qa {
     background: linear-gradient(to right, #F4FFE8, #C6F0FE);
     margin-inline: auto;
-    margin-bottom: 82px;
-    padding: 20px 16px 60px;
+    padding: 33px 16px 9px;
 }
 
 @media (min-width: 768px) {
     .qa {
+        padding-top: 43px;
         margin-bottom: 94px;
     }
 }
 
 /* title部分 */
 .qa__title {
-    margin-top: 72px;
-    margin-bottom: 38px;
+    margin-bottom: 7px;
 }
 
 @media (min-width: 768px) {
     .qa__title {
-        margin-bottom: 42px;
-        line-height: 2;
-        font-size: 36px;
+        margin-bottom: 13px;
     }
+}
+
+.qa__titlejp {
+    margin-bottom: 39px;
 }
 
 /* 外枠 */
 .qa__item {
     margin-inline: auto;
     margin-bottom: 20px;
-    font-weight: 500;
+    font-weight: 400;
     background-color: #fff;
 }
 
 @media (min-width: 768px) {
     .qa__item {
-        max-width: 904px;
+        max-width: 601px;
+        margin-bottom: 30px;
     }
 }
 
 .qa__item__q {
     display: flex;
-    margin: 15px 15px 20px;
+    padding: 19px 14px 20px 16.6px;
 }
 
 @media (min-width: 768px) {
     .qa__item__q {
-        margin: 19px 20px 20px 24px;
+        margin: 21px 0 7px 8px;
+        padding-bottom: 11px;
     }
 }
 
 .qa__item__a {
-    padding: 16px 0 19px 16px;
+    padding: 0 0 34px 16px;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
 }
 
 @media (min-width: 768px) {
     .qa__item__a {
-        padding: 20px 0 31px 25px;
+        padding: 6px 0 22px 25px;
     }
 }
 
@@ -608,56 +602,62 @@ h1 {
 @media (min-width: 768px) {
     .qa__item__q__icon {
         margin-right: 17px;
+        line-height: 2;
+    }
+}
+
+@media (min-width: 768px) {
+    .qa__item__a__icon {
+        line-height: 1;
     }
 }
 
 .qa__item__q__icon,.qa__item__a__icon {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    text-align: center;
-    font-weight: 700;
-    line-height: 2;
+    font-weight: 500;
 }
 
 @media (min-width: 768px) {
     .qa__item__q__icon,.qa__item__a__icon {
-        width: 48px;
-        height: 48px;
-        font-size: 24px;
-        line-height: 2;
+        font-size: 18px;
     }
 }
 
 /* 文章 */
 .qa__item__q__description {
     margin-right: 6px;
-    width: 81%;
+    width: 83%;
+    line-height: 1.7;
 }
 
 @media (min-width: 768px) {
     .qa__item__q__description {
-        margin-right: 76px;
+        margin-right: 36px;
         padding-top: 10px;
-        font-size: 16px;
+        line-height: 1;
     }
 }
 
 .qa__item__a__description{
     padding: 0 11px;
-    width: 84%;
+    width: 94%;
+    line-height: 1.75;
 }
 
 @media (min-width: 768px) {
     .qa__item__a__description {
-        padding: 8px 10px 0 15px;
-        width: 87%;
+        padding: 0 10px 0 15px;
+        line-height: 1.65;
     }
+}
+
+.qa__item__q__description,.qa__item__a__description {
+    font-size: 15px;
+    font-weight: 500;
 }
 
 /* 三角矢印 */
 .bi-caret-down-fill {
-    line-height: 1.4;
+    line-height: 1.7;
     height: fit-content;
     margin-left: auto;
 }
@@ -665,16 +665,17 @@ h1 {
 @media (min-width: 768px) {
     .bi-caret-down-fill {
         margin-top: 9px;
-        font-size: 23px;
+        font-size: 17px;
+        margin-left: 0;
     }
 }
 
 .accordion__title.selected > .bi-caret-down-fill {
-    transform: rotate(180deg)translateY(-19%);
+    transform: rotate(180deg)translateY(-1%);
 }
 
 @media (min-width: 768px) {
     .accordion__title.selected > .bi-caret-down-fill {
-        transform: rotate(180deg)translateY(-18%);
+        transform: rotate(180deg)translateY(-1%);
     }
 }

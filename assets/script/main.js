@@ -9,6 +9,7 @@ $('.voices__slick').slick({
     centerMode: true,
     slidesToShow: 3,
     slidesToScroll: 3,
+    variableWidth: true,
     // autoplay: true,
     // autoplaySpeed: 7000,
     responsive: [
