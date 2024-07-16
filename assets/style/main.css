@@ -40,31 +40,31 @@ img {
 .-button {
     display: block;
     margin: 0 auto;
-    padding: 18px 59px;
+    padding: 1.125rem 3.6875rem;
     text-align: center;
-    border-radius: 50px;
-    font-size: 18px;
+    border-radius: 3.125rem;
+    font-size: 1.125rem;
     font-weight: 700;
 }
 
 /* ボタンの幅が画面に対して大きくなりすぎないよう調整 */
 @media (max-width: 767px) {
     .-button {
-        max-width: 450px;
+        max-width: 28.125rem;
     }
 }
 
 @media (min-width: 768px) {
     .-button {
         margin-left: 0;
-        margin-right: 32px;
+        margin-right: 2rem;
     }
 }
 
 @media (min-width: 768px) and (max-width: 1099px) {
     .-button {
-        padding: 18px 28px;
-        font-size: 14px;
+        padding: 1.125rem 1.75rem;
+        font-size: 0.875rem;
     }
 }
 
@@ -77,37 +77,37 @@ img {
 .-topic {
     text-align: center;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 @media (min-width: 768px) {
     .-topic {
-        font-size: 45px;
+        font-size: 2.8125rem;
     }
 }
 
 .-topicjp {
     text-align: center;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 @media (min-width: 768px) {
     .-topicjp {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 }
 
 /* ヘッダー
 ------------------------------------------ */
 header {
-    margin-bottom: 55px;
+    margin-bottom: 3.4375rem;
 }
 
 @media (min-width: 768px) {
     header {
-        height: calc(100vw / 2 - 15px);
-        margin-bottom: 35px;
+        height: calc(100vw / 2 - 0.9375rem);
+        margin-bottom: 2.1875rem;
     }
 }
 
@@ -115,48 +115,48 @@ h1 {
     background-image: url(/assets/image/header/mainVisual_sp.jpg);
     background-size: 100%;
     aspect-ratio: 6 / 7;
-    padding-top: 25px;
+    padding-top: 1.5625rem;
     text-align: center;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
-    letter-spacing: 4.5px;
+    letter-spacing: 0.2813rem;
 }
 
 @media (min-width: 768px) {
     h1 {
         background-image: url(/assets/image/header/mainVisual_pc.jpg);
         aspect-ratio: 2 / 1;
-        font-size: 28px;
-        letter-spacing: 5.5px;
+        font-size: 1.75rem;
+        letter-spacing: 0.3438rem;
     }
 }
 
 @media (min-width: 768px) and (max-width: 1000px) {
     h1 {
-        padding-top: 20px;
+        padding-top: 1.25rem;
     }
 }
 
 @media (min-width: 1001px) {
     h1 {
-        padding-top: 33px;
+        padding-top: 2.0625rem;
     }
 }
 
 .header__main__title {
-    margin-top: -37px;
+    margin-top: -2.3125rem;
     margin-left: 6%;
-    font-size: 41px;
+    font-size: 2.5625rem;
     font-weight: 400;
-    letter-spacing: 12px;
+    letter-spacing: 0.75rem;
     line-height: 1.25;
 }
 
 @media (min-width: 768px) {
     .header__main__title {
         margin-top: -32%;
-        font-size: 50px;
-        letter-spacing: 15px;
+        font-size: 3.125rem;
+        letter-spacing: 0.9375rem;
         line-height: 1.4;
     }
 }
@@ -174,17 +174,17 @@ h1 {
 }
 
 .header__main__description {
-    margin-top: 10px;
+    margin-top: 0.625rem;
     margin-left: 6%;
-    font-size: 20px;
-    letter-spacing: 6px;
+    font-size: 1.25rem;
+    letter-spacing: 0.375rem;
 }
 
 @media (min-width: 768px) {
     .header__main__description {
-        margin-top: 6px;
-        font-size: 25px;
-        letter-spacing: 7px;
+        margin-top: 0.375rem;
+        font-size: 1.5625rem;
+        letter-spacing: 0.4375rem;
     }
 }
 
@@ -203,18 +203,18 @@ h1 {
 /* 販売
 ------------------------------------------ */
 .promotion {
-    margin: 20px 16px 49px;
-    padding: 20px 30px 34px;
+    margin: 1.25rem 1rem 3.0625rem;
+    padding: 1.25rem 1.875rem 2.125rem;
     background-color: #F0F4FF;
     text-align: center;
 }
 
 @media (min-width: 768px) {
     .promotion {
-        width: calc(100vw - 20px);
-        margin-bottom: 49px;
+        width: calc(100vw - 1.25rem);
+        margin-bottom: 3.0625rem;
         margin-inline: auto;
-        padding: 42px 48px 22px;
+        padding: 2.625rem 3rem 1.375rem;
         max-width: 1000px;
     }
 }
@@ -241,66 +241,66 @@ h1 {
 
 @media (min-width: 768px) and (max-width: 1099px) {
     .promotion__item {
-        margin-right: 40px;
+        margin-right: 2.5rem;
     }
 }
 
 @media (min-width: 1100px) {
     .promotion__item {
-        margin-right: 69px;
+        margin-right: 4.3125rem;
     }
 }
 
 /* 商品名 */
 .promotion__item__name {
-    margin-bottom: 9px;
-    letter-spacing: 2px;
+    margin-bottom: 0.5625rem;
+    letter-spacing: 0.125rem;
     color: #111;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 @media (min-width: 768px) {
     .promotion__item__name {
-        margin-bottom: 12px;
+        margin-bottom: 0.75rem;
     }
 }
 
 @media (min-width: 768px) and (max-width: 1099px) {
     .promotion__item__name {
-        font-size: 21px;
+        font-size: 1.3125rem;
     }
 }
 
 @media (min-width: 1100px) {
     .promotion__item__name {
-        font-size: 24px;
+        font-size: 1.5rem;
     }
 }
 
 /* 価格 */
 .promotion__item__price {
-    margin-bottom: 22px;
+    margin-bottom: 1.375rem;
     color: #111;
-    font-size: 14px;
-    letter-spacing: 1.5px;
+    font-size: 0.875rem;
+    letter-spacing: 0.0938rem;
 }
 
 @media (min-width: 768px) {
     .promotion__item__price {
         margin-bottom: 0;
-        font-size: 16px;
+        font-size: 1rem;
     }
 }
 
 /* ボタン */
 .promotion__button__onlineshop {
     background-color: #46C4DB;
-    margin-bottom: 21px;
+    margin-bottom: 1.3125rem;
 }
 
 .promotion__button__buy {
     background-color: #5DD5AB;
-    padding: 18px 112px;
+    padding: 1.125rem 7rem;
 }
 
 @media (min-width: 768px) {
@@ -311,7 +311,7 @@ h1 {
 
 @media (min-width: 768px) and (max-width: 1099px) {
     .promotion__button__buy {
-        padding: 18px 68px;
+        padding: 1.125rem 4.25rem;
     }
 }
 
@@ -322,7 +322,7 @@ h1 {
     background-image: url(/assets/image/product/product_sp.jpg);
     background-size: 100%;
     aspect-ratio: 39 / 68;
-    padding: 50px 16px 0;
+    padding: 3.125rem 1rem 0;
 }
 
 @media (min-width: 768px) {
@@ -340,131 +340,141 @@ h1 {
 }
 
 .product__introduce__slogan {
-    margin-bottom: 13px;
+    margin-bottom: 0.8125rem;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 1.875rem;
     text-align: center;
 }
 
 @media (min-width: 768px) {
     .product__introduce__slogan {
-        margin-bottom: 14px;
-        padding-left: 2px;
-        font-size: 38px;
+        margin-bottom: 0.875rem;
+        padding-left: 0.125rem;
+        font-size: 2.375rem;
         text-align: start;
     }
 }
 
 @media (min-width: 768px) and (max-width: 1149px) {
     .product__introduce__slogan {
-        margin-bottom: 12px;
-        font-size: 28px;
+        margin-bottom: 0.75rem;
+        font-size: 1.75rem;
     }
 }
 
 .product__introduce__sloganjp {
-        margin-bottom: 24px;
-        padding-left: 4px;
-        text-align: start;
-    }
+    margin-bottom: 1.5rem;
+    padding-left: 0.25rem;
+    text-align: start;
+}
 
 .product__introduce__sloganjp {
-    margin-bottom: 18px;
+    margin-bottom: 1.125rem;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 1.5rem;
     text-align: center;
 }
 
 @media (min-width: 768px) {
     .product__introduce__sloganjp {
-        margin-bottom: 24px;
-        padding-left: 4px;
+        margin-bottom: 1.5rem;
+        padding-left: 0.25rem;
         text-align: start;
     }
 }
 
 @media (min-width: 768px) and (max-width: 1149px) {
     .product__introduce__sloganjp {
-        margin-bottom: 16px;
-        font-size: 20px;
+        margin-bottom: 1rem;
+        font-size: 1.25rem;
     }
 }
 
 .product__introduce__description {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 2.25;
 }
 
 @media (min-width: 768px) {
     .product__introduce__description {
-        padding-left: 5px;
-        max-width: 429px;
+        padding-left: 0.3125rem;
+        max-width: 26.8125rem;
     }
 }
 
 @media (min-width: 768px) and (max-width: 1149px) {
     .product__introduce__description {
-        font-size: 11px;
+        font-size: 0.6875rem;
     }
 }
 
 /* お客様の声
 ------------------------------------------ */
 .voices__title {
-    margin-top: 52px;
-    margin-bottom: 7px;
-    letter-spacing: 1px;
+    margin-top: 3.25rem;
+    margin-bottom: 0.4375rem;
+    letter-spacing: 0.0625rem;
 }
 
 @media (min-width: 768px) {
     .voices__title {
-        margin-top: 85px;
-        margin-bottom: 9px;
+        margin-top: 5.3125rem;
+        margin-bottom: 0.5625rem;
     }
 }
 
 .voices__titlejp {
-    margin-bottom: 38px;
-    letter-spacing: 1px;
+    margin-bottom: 2.375rem;
+    letter-spacing: 0.0625rem;
 }
 
 .slick-dotted.slick-slider {
-    margin-bottom: 69px;
+    margin-bottom: 4.625rem;
+}
+
+@media (min-width: 768px) {
+    .slick-dotted.slick-slider {
+        margin-bottom: 7.125rem;
+    }
 }
 
 /* Slick矢印 */
 .slick-arrow {
     position: absolute;
-    top: calc((100% - 38px) / 2);
+    top: calc((100% - 2.375rem) / 2);
     z-index: 1;
     cursor: pointer;
 }
 
 @media (min-width: 768px) {
     .slick-arrow {
-        top: calc((100% - 19px) / 2);
+        top: calc((100% - 1.1875rem) / 2);
         width: 4%;
     }
 }
 
 .prev-arrow {
-    left: 15px;
+    left: 0.9375rem;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 @media (min-width: 768px) {
     .prev-arrow {
-        left: 22px;
+        left: 1.375rem;
     }
 }
 
 .next-arrow {
-    right: 15px;
+    right: 0.9375rem;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 @media (min-width: 768px) {
     .next-arrow {
-        right: 22px;
+        right: 1.375rem;
     }
 }
 
@@ -472,21 +482,28 @@ h1 {
 .slick-dots {
     display: flex;
     justify-content: center;
-    column-gap: 6px;
+    column-gap: 0.375rem;
+    bottom: -1.875rem;
+}
+@media (min-width: 768px) {
+    .slick-dots {
+        bottom: -2.5rem;
+    }
 }
 
 .slick-dots li {
     margin: 0;
-    width: 11px;
+    width: 0.6875rem;
 }
 
 .slick-dots li button {
     padding: 0;
 }
 
-.slick-dots li.slick-active button:before,.slick-dots li button:before {
+.slick-dots li.slick-active button:before,
+.slick-dots li button:before {
     width: fit-content;
-    font-size: 10px;
+    font-size: 0.625rem;
 }
 
 .slick-dots li button:before {
@@ -498,52 +515,68 @@ h1 {
     margin: 0;
 }
 
-.voices__slick__container {
+.voices__slick {
+    max-width: 75rem;
     margin: 0 auto;
-    padding: 28px 15px 25px;
-    background-color: #DBF7F9;
-    max-width: 280px;
+}
+
+.slick-list {
+    margin: 0 1.875rem;
 }
 
 @media (min-width: 768px) {
-    .voices__slick__container {
-        padding: 28px 15px 25px;
-        max-width: 300px;
+    .slick-list {
+        margin: 0 5.5625rem;
     }
+}
+
+.voices__slick__item {
+    padding: 1.8125rem 0.9375rem 1.4375rem;
+    background-color: #DBF7F9;
+    margin: 0 1.25rem;
+}
+
+@media (min-width: 768px) {
+    .voices__slick__item {
+        padding: 2.875rem 0.9375rem 2.375rem;
+    }
+
 }
 
 .voices__slick__item img {
     display: flex;
-    margin: 0 auto 10px;
+    margin: 0 auto 0.625rem;
     text-align: center;
-    padding-left: 10px;
+    padding-left: 0.625rem;
 }
 
 .voices__pickup {
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 .voices__pickup__name {
-    margin-bottom: 17px;
+    margin-bottom: 1.1875rem;
     text-align: center;
 }
 
 @media (min-width: 768px) {
     .voices__pickup__name {
-        font-size: 15px;
+        margin-bottom: 0.75rem;
+        font-size: 0.9375rem;
     }
 }
 
 .voices__pickup__voice {
     margin: 0 auto;
-    max-width: 250px;
+    max-width: 15.625rem;
     line-height: 2;
 }
 
 @media (min-width: 768px) {
     .voices__pickup__voice {
-        max-width: 268px;
-        font-size: 16px;
+        max-width: 16.75rem;
+        font-size: 1rem;
+        line-height: 1.75;
     }
 }
 
@@ -558,86 +591,86 @@ h1 {
 /* アコーディオンのコンテンツ部分 */
 .accordion__content {
     display: flex;
-    padding: 12px 6px;
+    padding: 0.75rem 0.375rem;
 }
 
 /* 大外 */
 .qa {
     background: linear-gradient(to right, #F4FFE8, #C6F0FE);
     margin-inline: auto;
-    padding: 33px 16px 9px;
+    padding: 2.0625rem 1rem 0.5625rem;
 }
 
 @media (min-width: 768px) {
     .qa {
-        padding-top: 43px;
-        padding-bottom: 15px;
-        margin-bottom: 52px;
+        padding-top: 2.6875rem;
+        padding-bottom: 0.9375rem;
+        margin-bottom: 3.0625rem;
     }
 }
 
 /* title部分 */
 .qa__title {
-    margin-bottom: 7px;
+    margin-bottom: 0.4375rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
     .qa__title {
-        margin-bottom: 13px;
+        margin-bottom: 0.8125rem;
     }
 }
 
 .qa__titlejp {
-    margin-bottom: 39px;
+    margin-bottom: 2.4375rem;
 }
 
 /* 外枠 */
 .qa__item {
     margin-inline: auto;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     font-weight: 400;
     background-color: #fff;
 }
 
 @media (min-width: 768px) {
     .qa__item {
-        max-width: 601px;
-        margin-bottom: 26px;
+        max-width: 37.5625rem;
+        margin-bottom: 1.625rem;
     }
 }
 
 .qa__item__q {
     display: flex;
-    padding: 19px 14px 20px 16.6px;
+    padding: 1.1875rem 0.875rem 1.25rem 1.0375rem;
 }
 
 @media (min-width: 768px) {
     .qa__item__q {
-        margin: 21px 0 7px 8px;
-        padding-bottom: 14px;
+        margin: 1.3125rem 0 0.4375rem 0.5rem;
+        padding-bottom: 0.875rem;
     }
 }
 
 .qa__item__a {
-    padding: 0 0 34px 16px;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+    padding: 0 0 2.125rem 1rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
 }
 
 @media (min-width: 768px) {
     .qa__item__a {
-        padding: 1px 0 26px 25px;
+        padding: 0.0625rem 0 1.625rem 1.5625rem;
     }
 }
 
 /* QAアイコン */
 .qa__item__q__icon {
-    margin-right: 12px;
+    margin-right: 0.75rem;
 }
 
 @media (min-width: 768px) {
     .qa__item__q__icon {
-        margin-right: 17px;
+        margin-right: 1.0625rem;
         line-height: 2;
     }
 }
@@ -648,46 +681,49 @@ h1 {
     }
 }
 
-.qa__item__q__icon,.qa__item__a__icon {
+.qa__item__q__icon,
+.qa__item__a__icon {
     font-weight: 500;
 }
 
 @media (min-width: 768px) {
-    .qa__item__q__icon,.qa__item__a__icon {
-        font-size: 18px;
+    .qa__item__q__icon,
+    .qa__item__a__icon {
+        font-size: 1.125rem;
     }
 }
 
 /* 文章 */
 .qa__item__q__description {
-    margin-right: 6px;
+    margin-right: 0.375rem;
     width: 83%;
     line-height: 1.7;
 }
 
 @media (min-width: 768px) {
     .qa__item__q__description {
-        margin-right: 34px;
-        padding-top: 10px;
+        margin-right: 2.125rem;
+        padding-top: 0.625rem;
         line-height: 1;
     }
 }
 
-.qa__item__a__description{
-    padding: 0 11px;
+.qa__item__a__description {
+    padding: 0 0.6875rem;
     width: 94%;
     line-height: 1.75;
 }
 
 @media (min-width: 768px) {
     .qa__item__a__description {
-        padding: 0 10px 0 15px;
+        padding: 0 0.625rem 0 0.9375rem;
         line-height: 1.65;
     }
 }
 
-.qa__item__q__description,.qa__item__a__description {
-    font-size: 15px;
+.qa__item__q__description,
+.qa__item__a__description {
+    font-size: 0.9375rem;
     font-weight: 500;
 }
 
@@ -700,49 +736,155 @@ h1 {
 
 @media (min-width: 768px) {
     .bi-caret-down-fill {
-        margin-top: 4px;
-        font-size: 17px;
+        margin-top: 0.25rem;
+        font-size: 1.0625rem;
         margin-left: 0;
     }
 }
 
-.accordion__title.selected > .bi-caret-down-fill {
+.accordion__title.selected>.bi-caret-down-fill {
     transform: rotate(180deg)translateY(-1%);
 }
 
 @media (min-width: 768px) {
-    .accordion__title.selected > .bi-caret-down-fill {
+    .accordion__title.selected>.bi-caret-down-fill {
         transform: rotate(180deg)translateY(-1%);
     }
 }
 
-.promotion__second {
-    margin-top: 51px;
+@media (max-width: 767px) {
+    .promotion__second {
+        margin-top: 3.25rem;
+    }
+}
+
+
+/* ページトップへ戻るボタン */
+.button-to-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 19.5%;
+    right: 4%;
+    width: 2.5rem;
+    height: 2.5rem;
+    color: #fff;
+    font-size: 2.1875rem;
+    background-color: #0071CE;
+    border-color:  #707070;
+}
+
+@media (min-width: 768px) {
+    .button-to-top {
+        bottom: 10%;
+        right: 3%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .button-to-top {
+        right: 10%;
+    }
 }
 
 /* フッター */
 footer {
-    padding: 24px 0 24px;
+    padding: 1.5rem 0 1.5rem;
     width: 100%;
     background-color: #0071CE;
+    margin-bottom: 0.1875rem;
+}
+
+@media (min-width: 768px) {
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2%;
+        padding: 2rem 0;
+    }
+}
+
+@media (min-width: 1150px) {
+    footer {
+        gap: 10.5%;
+    }
+}
+
+@media (min-width: 768px) {
+    .footer__nav {
+        display: flex;
+        align-items: center;
+        gap: 2.5rem;
+    }
+}
+
+@media (min-width: 1150px) {
+    .footer__nav {
+        gap: 13.0625rem;
+    }
 }
 
 .footer__title {
     text-align: center;
-    letter-spacing: 5.5px;
+    margin-top: 0.125rem;
+    margin-bottom: 1.625rem;
+    letter-spacing: 0.3438rem;
     font-weight: 500;
-    font-size: 28px;
+    font-size: 1.75rem;
+}
+
+@media (min-width: 768px) {
+    .footer__title {
+        margin-bottom: 0;
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 1150px) {
+    .footer__title {
+        font-size: 2rem;
+    }
 }
 
 .footer__container {
     display: flex;
-    gap: 10px;
+    gap: 1.875rem;
     justify-content: center;
-    font-size: 12px;
+    margin-bottom: 1.75rem;
+    font-size: 0.75rem;
+}
+
+@media (min-width: 768px) {
+    .footer__container {
+        margin-bottom: 0;
+        gap: 1.125rem;
+        font-size: 0.625rem;
+    }
+}
+
+@media (min-width: 1150px) {
+    .footer__container {
+        gap: 2rem;
+        font-size: 0.875rem;
+    }
 }
 
 .footer__copyright {
     display: block;
     text-align: center;
-    font-size: 11px;
+    font-size: 0.6875rem;
+}
+
+@media (min-width: 768px) {
+    .footer__copyright {
+        font-size: 0.625rem;
+    }
+}
+
+@media (min-width: 1150px) {
+    .footer__copyright {
+        font-size: 0.75rem;
+    }
 }
