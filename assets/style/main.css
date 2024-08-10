@@ -580,6 +580,12 @@ h1 {
     }
 }
 
+@media (max-width: 767px) {
+    .voices__picture7 {
+        width: 92px;
+    }
+}
+
 /* よくあるご質問 */
 /* アコーディオンのタイトル部分 */
 .accordion-title {

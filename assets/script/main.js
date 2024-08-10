@@ -7,7 +7,7 @@ $('.voices__slick__slide').slick({
     nextArrow: '<img src="assets/image/voices/arrow-right-circle_sp.svg" class="slide-arrow next-arrow">',
 
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 2,
     autoplay: true,
     autoplaySpeed: 7000,
 
@@ -15,7 +15,7 @@ $('.voices__slick__slide').slick({
         breakpoint: 1200,
         settings: {
         slidesToShow: 2,
-        slidesToScroll: 2,
+        slidesToScroll: 1,
         },
     },
     {
